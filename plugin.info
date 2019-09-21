@@ -1,0 +1,10 @@
+[Plugin]
+Name = Respeaker Mic Volume
+Version = 1.0.0
+License = MIT
+URL = http://naomiproject.github.io/
+Description = Display visualizations on the respeaker LED array
+
+[Author]
+Name = Naomi Project
+URL = http://naomiproject.github.io/
