@@ -1,10 +1,10 @@
 [Plugin]
-Name = Respeaker Mic Volume
+Name = Respeaker 4Mic Volume
 Version = 1.0.0
 License = MIT
-URL = http://naomiproject.github.io/
+URL = https://ProjectNaomi.com
 Description = Display visualizations on the respeaker LED array
 
 [Author]
-Name = Naomi Project
+Name = Aaron Chantrill
 URL = http://naomiproject.github.io/
