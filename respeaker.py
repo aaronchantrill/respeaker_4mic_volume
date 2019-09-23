@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+from collections import OrderedDict
 from gpiozero import LED
 from gpiozero.exc import GPIODeviceClosed
 import spidev
@@ -11,16 +12,6 @@ class RespeakerVisualizationsPlugin(plugin.VisualizationsPlugin):
     blue = [255, 192, 0, 0]
     lt_blue = [255, 4, 0, 0]
     yellow = [255,4,4,0]
-    settings = OrderedDict(
-        [
-            (
-                ("visualizations","respeaker"), {
-                    title: "Do you want to use the respeaker visualizations?",
-                    description: "This will display microphone levels on the SeeedStudio Respeaker 4mic Raspberry Pi hat"
-                }
-            )
-        ]
-    )
 
     def __init__(self, *args, **kwargs):
         super(RespeakerVisualizationsPlugin, self).__init__(*args, **kwargs)
