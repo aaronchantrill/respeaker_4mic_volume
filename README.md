@@ -1,4 +1,21 @@
-# respeaker_mic_visualization
+---
+id: respeakermicvisualization
+label: RespeakerMic
+title: RespeakerMicVisualization - Visualization
+type: visualizations
+description: "LED Display for SeeedStudio Respeaker"
+source: https://github.com/aaronchantrill/respeaker_4mic_volume/edit/master/README.md
+logo: images/plugins/seeed.png
+meta:
+  - property: og:title
+    content: "RespeakerMicVisualization - Visualization"
+  - property: og:description
+    content: "LED Display for SeeedStudio Respeaker"
+---
+
+# RespeakerMicVisualization - Visualization
+
+<PluginLogo/>
 
 This plugin uses the 12 multicolor LEDs on the SeeedStudio Respeaker 4 to
 provide visualizations.
@@ -54,3 +71,6 @@ passed in by name so they can be compared to what the visualization is
 expecting. This should help prevent collisions. That way, when someone writes
 a new visualization in the future that is called by your plugin, it will just
 start working without any additional work on your part.
+
+
+<EditPageLink/>
